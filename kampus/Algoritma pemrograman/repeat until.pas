@@ -1,0 +1,21 @@
+uses crt;
+  {
+  INI ADALAH SOURCE CODE PENGGUNAAN 
+  REPEAT UNTIL
+  
+  LOGIKANYA; 
+  KETIKA PROGRAM DI JALANKAN MAKA SOUND DI 
+  HIDUPKAN SAMPAI KONDISI DI MANA 
+  USER MENEKAN APAPUN YANG ADA DI KEYBOARD  
+}
+
+
+begin
+  clrscr;
+  WriteLn('TEKAN TOMBOL............');
+  repeat 
+    SOUND(1000);
+  until keyPressed;
+  NOSOUND;
+  READLN;
+end.

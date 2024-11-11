@@ -1,0 +1,21 @@
+PROGRAM CONTOH_1; {judul program}
+{tubuh program}
+
+{
+  INI ADALAH PROGRAM UNTUK MEMINDAHKAN 
+  CURSOR KE ARAH YANG KITA MAU
+  DENGAN MENGGUNAKAN GOTOXY
+  
+  GOTOXY ITU ARTINYA PERPINDAHAN 
+  SUMBU X = KOLOM
+  SUMBU Y = BARIS
+}
+USES CRT;
+BEGIN
+  textBackground(2);
+  clrscr;
+  textBackground(5);
+  gotoXY(25, 15);
+  Write('BAHASA PROGRAM PASCAL');
+  READLN;
+END .
